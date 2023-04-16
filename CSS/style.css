@@ -1,0 +1,203 @@
+body {
+    background-color: #F2F2F2;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+
+}
+
+li.nav-item {
+
+    margin: 0 5rem 0 5rem;
+    font-size: 20;
+    padding-top: 3rem;
+}
+
+div.navbar_logo {
+    margin: 5rem 0 0 15rem;
+}
+
+.navbar-inner {
+    background-color: transparent;
+}
+
+.hero_carousel{
+    padding: 3rem;
+}
+
+img.img-fluid.couple {
+    max-width: 75%;
+    box-shadow: 10px 10px 34px 7px rgba(0, 0, 0, 0.38)
+}
+
+img.img-fluid.sansam {
+    max-width: 60%;
+    box-shadow: 10px 10px 34px 7px rgba(0, 0, 0, 0.38)
+}
+
+div.caption {
+    justify-content: center;
+    margin: auto;
+}
+
+p.caption_text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: #000000;
+}
+
+.booking {
+    margin: 4rem 0 4rem 0;
+    padding: 15px 80px 15px 80px;
+    font-size: 1.2rem;
+    border-radius: 25px !important;
+}
+
+hr {
+    width: 1000%;
+
+}
+
+.div_quote {
+    margin: 0 10% 0 10%;
+}
+
+.first-letter {
+    font-size: 35px;
+
+}
+
+.meet_para {
+    letter-spacing: 1px;
+}
+
+
+img.img-fluid.flower {
+    max-width: 60%;
+    box-shadow: 10px 10px 34px 7px rgba(0, 0, 0, 0.38)
+}
+
+.hournlocation {
+    margin-top: 8rem;
+}
+
+.address,
+.hours {
+
+    padding-left: 12rem;
+}
+
+.form-group {
+    margin: 3rem;
+}
+.submit {
+    margin: auto;
+    padding: auto;
+    font-size: 1.2rem;
+    border-radius: none;
+}
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.social-buttons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-buttons a:hover {
+    opacity: 0.8;
+}
+
+.facebook {
+    background-color: #000000;
+}
+
+.twitter {
+    background-color: #000000;
+}
+
+.linkedin {
+    background-color: #000000;
+}
+
+.instagram {
+    background-color: #000000;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .container {
+        margin: 2rem 1rem;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .hero_carousel{
+        padding: 0;;
+    }
+    div.navbar_logo {
+        margin: 1rem 1rem 0rem 4rem;
+    }
+    
+    .sansam {
+        margin-top: 3rem;
+    }
+    p.caption_text {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2em;
+        color: #000000;
+    }
+
+    .meet_para {
+        margin: 0 3rem 0 3rem;
+    }
+
+    .first-letter {
+        font-size: 25px;
+
+    }
+
+    .address,
+    .hours {
+
+        padding: 2rem 5rem 2rem 5rem;
+    }
+    img.img-fluid.flower {
+        max-width: 60%;
+        margin-bottom: 3rem;
+        box-shadow: 10px 10px 34px 7px rgba(0, 0, 0, 0.38)
+    }
+    .team {
+        padding-top: 2rem !important;
+    }
+}
